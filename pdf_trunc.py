@@ -24,7 +24,3 @@ def pdf_trunc(query: str, source_path, dest_path):
     with dest_pdf.open(mode='wb') as f:
         pdf_write.write(f)
 
-
-pdf_trunc(query='scan',
-          source_path="/home/jahn/PycharmProjects/Werd/Leonard Rosenthol - Developing with PDF_ dive into the Portable Document Format (2013, O'Reilly Media) - libgen.li.pdf",
-          dest_path="PDF_Dev_Trunc.pdf")
